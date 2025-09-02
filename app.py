@@ -152,49 +152,6 @@ st.sidebar.markdown("""
 # Optional: Add a small IMDB logo at the bottom
 st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg", use_column_width=True)
 
-
-
-# # ----------------- SIDEBAR -----------------
-# st.sidebar.markdown("<h2 style='text-align:center;'>🎬 Movie Sentiment Analyzer</h2>", unsafe_allow_html=True)
-
-# st.sidebar.markdown("---")
-
-# # About App
-# st.sidebar.markdown("## 📖 About this App")
-# st.sidebar.info(
-#     """
-# This app uses **Machine Learning (Logistic Regression)**  
-# trained on **IMDB movie reviews** to predict the **sentiment** of a review.
-# """
-# )
-
-# # Built With
-# st.sidebar.markdown("## 🛠 Built With")
-# st.sidebar.markdown(
-#     """
-# - **Python 🐍**
-# - **Scikit-learn 🤖**
-# - **Streamlit 🎨**
-# """
-# )
-# st.sidebar.markdown("---")
-
-# # Developer
-# st.sidebar.markdown("## 👨‍💻 Developer")
-# st.sidebar.markdown(
-#     """
-# **Sonal Shinde**  
-# [LinkedIn](https://www.linkedin.com/in/sonal-shinde-7aa40b250)  
-# """
-# )
-# st.sidebar.markdown("---")
-
-# # Source Code
-# st.sidebar.markdown("## 📂 Source Code")
-# st.sidebar.markdown("[GitHub Repository](https://github.com/sonalshinde24/sentiment-analysis-reviews)")
-# st.sidebar.markdown("---")
-
-
 # ----------------- HEADER -----------------
 st.markdown("<div class='main-title'>🎬 IMDB Movie Review Sentiment Analyzer</div>", unsafe_allow_html=True)
 st.markdown("<div class='sub-title'>Enter a movie review below and let AI tell you the sentiment 🚀</div>", unsafe_allow_html=True)
