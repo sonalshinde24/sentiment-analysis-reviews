@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 from PIL import Image
 
-# ----------------- CONFIG -----------------
+# ----------------- CONFIG ----------------
 st.set_page_config(
     page_title="🎬 IMDB Sentiment Analysis",
     page_icon="🎭",
@@ -11,11 +11,11 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ----------------- LOAD MODEL -----------------
+# ----------------- LOAD MODEL --------------
 model = joblib.load("model.pkl")
 vectorizer = joblib.load("vectorizer.pkl")
 
-# ----------------- CUSTOM CSS -----------------
+# ----------------- CUSTOM CSS ---------------
 st.markdown("""
     <style>
         /* Main background */
